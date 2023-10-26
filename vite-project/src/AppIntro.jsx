@@ -10,6 +10,8 @@ function App() {
   const string ="start vita - react"
   const myage=35;
   const object={a:1, b:22222};
+  const smoking =false; // you can nor render boolean values
+   const array =[1,2,3,4,5];
   return (
     //XLM start here 
     <div className="first-class">
@@ -25,6 +27,8 @@ function App() {
       {object.a}
       <br />
       {object.b}
+      <br />
+      {array}
     
     </div>
   );
